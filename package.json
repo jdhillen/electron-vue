@@ -1,0 +1,30 @@
+{
+  "name": "electron-vue",
+  "version": "0.0.0",
+  "main": "main.js",
+  "engines": {
+    "npm": "9.6.4",
+    "node": ">=18.16.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "format": "npx prettier --check .",
+    "format:write": "npx prettier --write .",
+    "electron:start": "electron ."
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "pinia": "^2.0.36",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/compiler-sfc": "^3.3.2",
+    "electron": "^24.3.0",
+    "sass": "^1.62.1",
+    "vite": "^4.3.6"
+  }
+}
